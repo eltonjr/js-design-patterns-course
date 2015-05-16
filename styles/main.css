@@ -5,20 +5,19 @@ html {
 body {
     height: 100%;
     margin: 0;
+    background-color: #013770;
 }
 
 .content {
     height: 100%;
     width: 100%;
-    overflow: hidden;
-    background-color: #013770;
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     width: 0;
-    top: 400px;
-    height: 200px;
+    bottom: 0;
+    height: 150px;
     border-right: 2000px solid #001F3F;
-    border-top: 100px solid transparent;
+    border-top: 150px solid transparent;
 }
