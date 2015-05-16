@@ -9,8 +9,8 @@ body {
 }
 
 .content {
-    height: 100%;
-    width: 100%;
+    width: 250px;
+    margin: 70px auto;
 }
 
 .footer {
@@ -20,4 +20,18 @@ body {
     height: 150px;
     border-right: 2000px solid #001F3F;
     border-top: 150px solid transparent;
+}
+
+.cat-image {
+    max-width: 200px;
+    max-height: 200px;
+    border: 8px solid white;
+    margin-left: 25px;
+}
+
+p {
+    font-size: 20pt;
+    font-family: monospace;
+    color: white;
+    text-align: center;
 }
