@@ -9,8 +9,8 @@ body {
 }
 
 .content {
-    width: 250px;
-    margin: 70px auto;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .footer {
@@ -34,4 +34,9 @@ p {
     font-family: monospace;
     color: white;
     text-align: center;
+}
+
+.cat-wrapper {
+    width: 300px;
+    float: left;
 }

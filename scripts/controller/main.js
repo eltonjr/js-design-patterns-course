@@ -5,11 +5,18 @@
 
 angular.module('catclicker').controller('MainCtrl', ['$scope', function($scope){
 
-	// Click counter
-	$scope.clickCount = 0;
+	$scope.catBucket = [{
+		name: "Ludwig",
+		url: "images/cute-cat.png",
+		clickCount: 0
+	},{
+		name: "Alfred",
+		url: "images/cute-cat.png",
+		clickCount: 0
+	}];
 
 	// Increment the number of clicks
-	$scope.increment = function() {
-		$scope.clickCount++;
+	$scope.increment = function(cat) {
+		cat.clickCount++;
 	};
 }]);
