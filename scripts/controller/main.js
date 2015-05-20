@@ -3,18 +3,10 @@
 * Controls the main page
 */
 
-angular.module('catclicker').controller('MainCtrl', ['$scope', function($scope){
+angular.module('catclicker').controller('MainCtrl', ['$scope', 'DataProvider', function($scope, DataProvider){
 
 	// The list of cats
-	$scope.catBucket = [{
-		name: "Ludwig",
-		url: "images/cute-cat.png",
-		clickCount: 0
-	},{
-		name: "Alfred",
-		url: "images/cute-cat.png",
-		clickCount: 0
-	}];
+	$scope.catBucket = DataProvider.collection;
 
 	// The displayed cat | default: null
 	$scope.selected = null;
