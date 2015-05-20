@@ -7,19 +7,19 @@ angular.module('catclicker').factory('DataProvider', function(){
 		clickCount: 0
 	},{
 		name: "Alfred",
-		url: "images/cute-cat.png",
+		url: "images/chair-cat.jpg",
 		clickCount: 0
 	},{
 		name: "Frederic",
-		url: "images/cute-cat.png",
+		url: "images/grass-cat.jpg",
 		clickCount: 0
 	},{
 		name: "Smith",
-		url: "images/cute-cat.png",
+		url: "images/owl-cat.jpg",
 		clickCount: 0
 	},{
 		name: "Molyneux",
-		url: "images/cute-cat.png",
+		url: "images/towel-cat.jpg",
 		clickCount: 0
 	}];
 
