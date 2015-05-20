@@ -24,8 +24,7 @@ body {
 }
 
 .main {
-    width: 600px;
-    margin: 0 auto;
+    margin: 50px 100px;
 }
 
 .cat-image {
@@ -43,6 +42,23 @@ p {
 }
 
 .cat-wrapper {
+    position: absolute;
+    margin-left: 300px;
     width: 300px;
     float: left;
+}
+
+.cat-list {
+    position: absolute;
+    width: 300px;
+}
+
+.cat-item {
+    width: 80%;
+    margin-bottom: 10px;
+    padding: 3px;
+    color: #333;
+    font-family: monospace;
+    font-size: 14pt;
+    background-color: rgba(255,255,255,0.3);
 }
