@@ -1,17 +1,6 @@
 <div class="main">
 
-	<div class="cat-list">
-		<div ng-repeat="cat in catBucket" ng-click="selectCat(cat)" class="cat-item">
-			{{cat.name}}
-		</div>
-	</div>
-
-	<div class="cat-wrapper" ng-show="selected">
-		<p>{{selected.name}}</p>
-		<img ng-src="{{selected.url}}" alt="Click me!" ng-click="increment(selected)" class="cat-image">
-
-		<p>Click the cat!</p>
-		<p>&#8680; {{selected.clickCount}} &#8678;</p>
-	</div>
+	<div ng-include="'views/list.html'"></div>
+	<div ng-include="'views/current.html'"></div>
 
 </div>

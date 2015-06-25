@@ -1,0 +1,7 @@
+<div class="cat-wrapper" ng-show="selected()" ng-controller="CurrentCatController">
+	<p>{{selected().name}}</p>
+	<img ng-src="{{selected().url}}" alt="Click me!" ng-click="increment()" class="cat-image">
+
+	<p>Click the cat!</p>
+	<p>&#8680; {{selected().clickCount}} &#8678;</p>
+</div>
